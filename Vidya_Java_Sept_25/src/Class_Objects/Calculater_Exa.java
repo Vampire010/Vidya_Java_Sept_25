@@ -7,10 +7,12 @@ public class Calculater_Exa
 	double b = 30;
 	double result;
 	
+	 
+	
 	public void addition()
 	{
+		String cal_Type = "Addition";
 		System.out.println(a + b);
-		
 	}
 
 	public void Sub()
@@ -31,6 +33,13 @@ public class Calculater_Exa
 		
 	}
 	
+	public static void take()
+	{
+		System.out.println("Im Static" );
+		
+	}
+	
+	
 	
 	public static void main(String[] args) 
 	{
@@ -40,8 +49,9 @@ public class Calculater_Exa
 		cal.Sub();
 		cal.div();
 		cal.Mul();
-		
-		
+		//cal.take();
+
+		Calculater_Exa.take();
 	}
 
 }
