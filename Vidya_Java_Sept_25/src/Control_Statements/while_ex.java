@@ -9,7 +9,7 @@ public class while_ex {
 		{
 			
 			System.out.println(i);
-			i++;
+			//i++;
 		}
 		
 	}
