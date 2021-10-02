@@ -9,9 +9,7 @@ public class Sports_Tournament extends Hockey_Sports
 		
 		spt.Hockey_Teams();
 		spt.Table_Tennis_Teams();
-		
-		
-		
+
 	}
 
 }
