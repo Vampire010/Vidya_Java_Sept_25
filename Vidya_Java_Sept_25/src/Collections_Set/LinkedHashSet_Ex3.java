@@ -24,7 +24,15 @@ public class LinkedHashSet_Ex3 {
 		numbers.add(24);
 		
 		System.out.println("LinkedHashSet: " + numbers);
-		System.out.println("LinkedHashSet: " + numbers);
+
+		
+		LinkedHashSet<Integer> numbers1 = new LinkedHashSet<>();
+		numbers1.add(2);
+		numbers1.add(4);
+		numbers1.add(6);
+		numbers1.add(8);
+		numbers1.add(10);
+		System.out.println("LinkedHashSet: " + numbers1);
 
 	}
 
